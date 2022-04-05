@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LandingPageComponent implements OnInit {
 
-  constructor() { }
+  year = new Date();
+
+  constructor() {
+
+  }
 
   ngOnInit(): void {
   }

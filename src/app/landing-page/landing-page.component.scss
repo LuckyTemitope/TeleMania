@@ -2,17 +2,15 @@
 // COLOR PALETTE
 // #db0000, #000000, #ffffff, #564d4d, #831010
 
+
+
 .landing-page {
-  // display: flex;
-  // justify-content: center;
-  // align-items: center;
   width: 100%;
   height: 100vh;
   background-position: center;
   background-size: cover;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.9),  rgba(0, 0, 0, 0.5)), url(../../assets/images/background-image.jpeg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.9),  rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url(../../assets/images/background-image.jpeg);
   background-color: rgb(0, 0, 0);
-  height: 100vh;
 }
 
 nav {
@@ -21,18 +19,98 @@ nav {
   padding: 2em 4em;
 }
 
+.logo {
+  width: 10%;
+}
+
+.logo img {
+  width: 100%;
+}
+
 h1 {
   font-weight: 900;
 }
 
+h2 {
+  font-size: 4em;
+  line-height: 1em;
+}
+
+h3 {
+  font-size: 2em;
+  font-weight: 200;
+  margin-bottom: 1em;
+}
+
+p {
+  font-weight: lighter;
+  font-size: 1.2em;
+}
+
 span {
-  color: #db0000;
+  color: var(--primary);
 }
 
 .sign-in-btn {
-  background: #db0000;
+  background: var(--primary);
   border: none;
   padding: 1em 2em;
   color: #fff;
   border-radius: 5px;
 }
+
+.main-content {
+
+  text-align: center;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+content {
+  width: 100vw;
+}
+
+form {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form input {
+  height: 3vh;
+  width: 80%;
+  padding: 1em;
+}
+
+form button {
+  font-size: 1.2em;
+  height: 6.5vh;
+  width: 30%;
+  margin-left: 2px;
+  color: var(--white);
+  background: var(--primary);
+  border: none;
+  border-radius: 1px;
+  display: flex;
+  align-items: center;
+  padding-left: 0.7em;
+}
+
+form button:hover {
+  opacity: .9;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 900;
+  color: var(--primary-dark);
+}
+
+footer {
+  text-align: center;
+}
+

@@ -36,5 +36,13 @@ $TeleMania-theme: mat.define-light-theme((
 
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; color: #fff; }
+:root {
+  --primary: #db0000;
+  --primary-dark: #831010;
+  --secondary: #564d4d;
+  --black: #000000;
+  --white: #ffff;
+}
+
+html, body { height: 100%; color: var(--white); }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
